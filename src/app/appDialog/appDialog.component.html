@@ -1,0 +1,29 @@
+<div>
+  <h2>Add book</h2>
+  <form [formGroup]="addForm" novalidate class="form">
+
+    <div class="form-group">
+      <label for="bookName">Book Name:</label>
+      <input formControlName="nombre" placeholder="Book Name" name="bookName" class="form-control" id="bookName">
+    </div>
+
+    <div class="form-group">
+      <label for="bookAuthor">Book author:</label>
+      <input formControlName="autor" placeholder="Book author" name="bookAuthor" class="form-control" id="bookAuthor">
+    </div>
+
+    <div class="form-group">
+      <label for="bookEditorial">Book editorial:</label>
+      <input formControlName="editorial" placeholder="Book editorial" name="bookEditorial" class="form-control" id="bookEditorial">
+    </div>
+
+    <div class="form-group">
+      <label for="bookEdition">Book edition:</label>
+      <input formControlName="edicion" placeholder="Book edition" name="bookEdition" class="form-control" id="bookEdition">
+    </div>
+
+    <button *ngIf="!bookData" class="btn btn-success" (click)="onSubmit()">Save</button>
+    <button *ngIf="bookData" class="btn btn-success" (click)="onUpdate()">Update</button>
+
+  </form>
+</div>

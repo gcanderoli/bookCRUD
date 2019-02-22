@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "nombre": "Artemis Fowl",
+      "autor": "Eoin Colfer",
+      "editorial": "Viking Press",
+      "edicion": 2001
+    },
+    {
+      "id": 2,
+      "nombre": "The Da Vinci code",
+      "autor": "Dan Brown",
+      "editorial": "Corgi Books",
+      "edicion": 2009
+    },
+    {
+      "id": 3,
+      "nombre": "Harry Potter",
+      "autor": "J. K. Rowling",
+      "editorial": "Bloomsbury Publishing",
+      "edicion": 1997
+    },
+    {
+      "id": 4,
+      "nombre": "The Analyst",
+      "autor": "John Katzenbach",
+      "editorial": "Ballantine Books",
+      "edicion": 2002
+    },
+    {
+      "id": 5,
+      "nombre": "The Lord of the Rings",
+      "autor": "J. R. R. Tolkien",
+      "editorial": "George Allen & Unwin ",
+      "edicion": 1954
+    },
+    {
+      "id": 6,
+      "nombre": "Game Of Thrones",
+      "autor": "George R. R. Martin",
+      "editorial": "Bantam Spectra",
+      "edicion": 1996
+    }
+  ]
+}
